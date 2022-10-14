@@ -1,3 +1,15 @@
+// Author1: Selsabeel Asim Ali Elbagir
+// ID1: 20210714
+
+//Author2:
+
+//Author3:
+
+//Date: 2022/10/09
+// Second year, semester 1.
+//Course:CS213 Object Oriented Programming
+//Professor: Dr.El-Ramly
+
 #include "BigDecimalInt.h"
 
 int main(){
