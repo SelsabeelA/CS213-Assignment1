@@ -72,17 +72,17 @@ bool BigDecimalInt:: operator<(BigDecimalInt another_Dec){    // check the negat
     }
     if(sign()< 0 && another_Dec.BigDeci[0] == '-'){
         if (n1<n2){
-            return true;
+            return false;
         }
         else if (n1>n2){
-            return false;
+            return true;
         }
         for (int i =1 ; i < n1 ; i++){
             if(BigDeci[i] < another_Dec.BigDeci[i]){
-                return true;
+                return false;
             }
             if (BigDeci[i] > another_Dec.BigDeci[i]){
-                return false;
+                return true;
             }
         }
     }
