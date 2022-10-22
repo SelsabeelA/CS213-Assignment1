@@ -196,12 +196,13 @@ bool BigDecimalInt::operator> (BigDecimalInt anotherDec){
     if(mainlength!=BigDeci.length()){
         i++; // this ensures that we don't compare the positive or negative sign
     }
-    for(;i<BigDeci.length();i++){
+    while(i<BigDeci.length()){
         if(anotherDec.BigDeci[i] < BigDeci[i]){
             return (false*switch_sign);
         }
     }
     return (true*switch_sign);
+
 }
 bool BigDecimalInt::operator== (BigDecimalInt anotherDec){
     for(int i=0;i<BigDeci.length();i++){
