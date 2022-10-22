@@ -1,0 +1,31 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/DELL/CLionProjects/OOP_assign1_task1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_0d91d && ninja: error: unknown target 'cmTC_0d91d'
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Users/DELL/CLionProjects/OOP_assign1_task1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_4b47f && [1/2] Building C object CMakeFiles/cmTC_4b47f.dir/testCCompiler.c.obj
+FAILED: CMakeFiles/cmTC_4b47f.dir/testCCompiler.c.obj 
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_4b47f.dir/testCCompiler.c.obj -c C:/Users/DELL/CLionProjects/OOP_assign1_task1/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Assembler messages:
+Fatal error: can't create CMakeFiles/cmTC_4b47f.dir/testCCompiler.c.obj: No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Program Files/JetBrains/CLion 2021.3.3/bin/mingw/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+cc1plus.exe: fatal error: CMakeCXXCompilerId.cpp: No such file or directory
+compilation terminated.
+
+
